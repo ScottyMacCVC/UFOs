@@ -22,9 +22,7 @@ ES6+ & Javascript used together can create a powerful tool. Our goal is to under
 ![ShapeSearch](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Search%20by%20Shape.JPG)
 
 ### Filtering Conversation: 
-By typing in the suggested placeholder elements as the filters, the result returns 2 matches.  Make sure to type everything in lower case letters and do not have spaces at the end of the text.  Click off the input box or press enter to initiate the filter.  To reset the filter criteria, click the UFO Sightings at the top left of the website. 
-
-![ShapeSearch](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Search%20by%20Shape.JPG)
+The filtering on the page is sort of wonky. Everything has to be perfectly aligned with the data we search. For example, EL Cajon does not provide the data set for "el cajon". Due to capitlization, the search sees these two as different items. The same issue will apply if we type "el cajon ". Notice the extra space at the end of the term. The extra space means the search item differs from the data set. We also need to learn about reseting the search.  To reset the filter criteria, click the UFO Sightings in the top left or clear all search values and hit enter. 
 
 
 ## Summary: 
