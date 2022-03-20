@@ -5,18 +5,26 @@
 ## Overview 
 ES6+ & Javascript used together can create a powerful tool. Our goal is to understand the strengths and understand the weaknesses, as well as limitations, to reach our clients goals. We will need to use Javascript syntax in ideal locations to deploy built-in functions. Our Javascript loop, or the ForEach loop, will gather the information needed. Our filter components will allow the user interface to narrow in on the information they specifically seek. 
 
-## Results:
-### Welcome to UFO Sightings! 
+## Reviewing the Search:
 
-![Pic 1](https://github.com/Baylex/UFOs/blob/main/static/images/top.PNG)
+- Our base search bar & information is provided as shown below. 
+![SearchInfo](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Search%20%26%20Info.JPG)
 
-### How the filters appear when first landing on the page:
-![Pic 2](https://github.com/Baylex/UFOs/blob/main/static/images/bottom.PNG)
+- The search can be initially filtered by a date. The date does severely limit your search because the date has to be exact. We may want to take a look at these items by city or the other options. 
+![DateSearch](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Date%20Search.JPG)
 
-### How the filters appear after being used: 
+- The data is likely best searched by city. The reason the city is the best starting place is due to a hierarchy of search tasks. Once the filter is set for say, state, then we have to maintain all searches within the state. Whereas searching by city only allows us to expand our search and move more efficiently through our searches. 
+![SearchbyCity](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Search%20by%20City.JPG)
+
+![HierarchyIssue](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Hierarchy%20Issue.JPG)
+
+- We can extend our search to more exact items such as shape if we are looking for similarities between sightings.  
+![ShapeSearch](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Search%20by%20Shape.JPG)
+
+### Filtering Conversation: 
 By typing in the suggested placeholder elements as the filters, the result returns 2 matches.  Make sure to type everything in lower case letters and do not have spaces at the end of the text.  Click off the input box or press enter to initiate the filter.  To reset the filter criteria, click the UFO Sightings at the top left of the website. 
 
-![Pic 3](https://github.com/Baylex/UFOs/blob/main/static/images/working_filters.PNG)
+![ShapeSearch](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Search%20by%20Shape.JPG)
 
 
 ## Summary: 
