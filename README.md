@@ -21,19 +21,15 @@ ES6+ & Javascript used together can create a powerful tool. Our goal is to under
 - We can extend our search to more exact items such as shape if we are looking for similarities between sightings.  
 ![ShapeSearch](https://github.com/ScottyMacCVC/UFOs/blob/main/static/images/Search%20by%20Shape.JPG)
 
-### Filtering Conversation: 
-The filtering on the page is sort of wonky. Everything has to be perfectly aligned with the data we search. For example, EL Cajon does not provide the data set for "el cajon". Due to capitlization, the search sees these two as different items. The same issue will apply if we type "el cajon ". Notice the extra space at the end of the term. The extra space means the search item differs from the data set. We also need to learn about reseting the search.  To reset the filter criteria, click the UFO Sightings in the top left or clear all search values and hit enter. 
-
 
 ## Summary: 
 
-### Drawback:
-The user must know specific dates, cities, or shapes to search.  Some shapes like "light" might not be as intuitive.  The filters require correct lower-case spellings and cannot include spaces at the end.  The city that was used, for example, could not be typed as "elcajon", “el cajon_”, or "El Cajon".  The only acceptable input would be "el cajon".
+### Filtering Conversation: 
+The filtering on the page is sort of wonky. Everything has to be perfectly aligned with the data we search. For example, EL Cajon does not provide the data set for "el cajon". Due to capitlization, the search sees these two as different items. The same issue will apply if we type "el cajon ". Notice the extra space at the end of the term. The extra space means the search item differs from the data set. We also need to learn about reseting the search.  To reset the filter criteria, click the UFO Sightings in the top left or clear all search values and hit enter. 
 
-### Recommendations: 
-1. The next addition to the filters should be to add a trim function to catch spaces at the end of words as well as allow for upper and lower cases.
-![Pic 4](https://github.com/Baylex/UFOs/blob/main/static/images/trim.PNG)
+### Two Recommendations: 
+- **1** We should allow more entries to access data with similar information. For example, we can add in a trim function to the search and it should eliminate any extra spaces that may cause search issues. We can do the same thing with a date range instead of a singular date. These would allow a slightly more broad search and help the user. 
 
-2. A filter on a date range might be preferable than a singular date.  Typing 1/2010 did not bring up all the dates from January as hoped.  Perhaps, the UFO Sightings occur more frequently in a specific month instead of a specific day within the month.  It is recommended to add in a filter function to include a date range as the filter to aid in the investigation of UFO Sightings. 
+- **2** The capitilization issue is by far the lowest hanging fruit. We would want to update our code to allow for any type of capitilization, so long as the root of the term is correct. For example, El Cajon should return el cajon data set. 
 
-![Pic 5](https://github.com/Baylex/UFOs/blob/main/static/images/date.PNG)
+
