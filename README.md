@@ -1,6 +1,6 @@
 # UFOs Sightings - The Truth is Out There
 
-## We are to provide a webpage and working, dynamic table. Our customer would like a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, a set of table filters will be created for the city, state, country, and shape.
+## We are to provide a webpage and working dynamic table. Our customer would like a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, a set of table filters will be created for the city, state, country, and shape.
 
 ## Overview 
 ES6+ & Javascript used together can create a powerful tool. Our goal is to understand the strengths and the weaknesses, as well as limitations, of both tool sets to reach our clients goals. We will need to use Javascript syntax in ideal locations to deploy built-in functions. Our Javascript loop, or the ForEach loop, will gather the information needed from the dataset. Our filter components will allow the user interface to narrow in on the information we specifically seek. 
