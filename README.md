@@ -33,3 +33,5 @@ The filtering on the page is sort of wonky. Everything has to be perfectly align
 - **2** The capitilization issue is by far the lowest hanging fruit. We would want to update our code to allow for any type of capitilization, so long as the root of the term is correct. For example, El Cajon should return el cajon data set. 
 
 
+## Resources
+- Software: Python 3.7.6., VS Code, HTML, Console 
