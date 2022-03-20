@@ -2,13 +2,6 @@
 
 ## We are to provide a webpage and working, dynamic table. Our customer would like a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, a set of table filters will be created for the city, state, country, and shape.
 
-
-2. Describe JavaScript syntax and ideal use cases.
-3. Build and deploy JavaScript functions, including built-in functions.
-4. Convert JavaScript functions to arrow functions.
-5. Build and deploy forEach (JavaScript for loop).
-6. Create, populate, and dynamically filter a table using JavaScript and HTML
-
 ## Overview 
 ES6+ & Javascript used together can create a powerful tool. Our goal is to understand the strengths and understand the weaknesses, as well as limitations, to reach our clients goals. We will need to use Javascript syntax in ideal locations to deploy built-in functions. Our Javascript loop, or the ForEach loop, will gather the information needed. Our filter components will allow the user interface to narrow in on the information they specifically seek. 
 
